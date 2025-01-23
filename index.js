@@ -1,4 +1,5 @@
-console.log('Hello world!');
-function greet() {
-  console.log('hello Greetings!');
+function greet(name) {
+  console.log(`Hello ${name}`);
 }
+
+greet();
